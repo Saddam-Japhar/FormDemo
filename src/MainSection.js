@@ -36,8 +36,7 @@ export class MainSection extends Component {
             <p class="card-text">
               {" "}
               Happy birthday queen❤️ you're one of my most favorite actresses
-              and I adore you so much. One time you noticed me and called me
-              amazing, that was the happiest day of my life.❤️
+              and I adore you so much.
             </p>
             <p className="minutes"> 37 minutes ago</p>
           </div>
