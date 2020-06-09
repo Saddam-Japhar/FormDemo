@@ -1,0 +1,32 @@
+body {
+  background-color: #fafafa;
+}
+/* .nav-warpper {
+  background-color: #ffffff;
+} */
+
+.nav-brand-div {
+  font-family: "Pacifico", cursive;
+  color: #231f20;
+  margin-left: 25px;
+}
+
+.search-icon {
+  height: 25px;
+  width: 200px;
+  margin-left: 254px;
+  border-radius: 10px;
+  text-align: center;
+}
+.nav-icons {
+  font-size: 1.5rem;
+  color: #262626;
+}
+.nav-icons:hover {
+  font-size: 1.3rem;
+  color: #262626;
+}
+
+.navigation-icon {
+  margin-right: 200px;
+}

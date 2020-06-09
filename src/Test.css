@@ -1,0 +1,25 @@
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 5px;
+}
+
+.border-line {
+  border-right: 1px solid #eeeeee;
+}
+
+.ver {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.or {
+  width: 10%;
+  font-weight: bold;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./Navigation";
 import scheduleTargetRequest from "./schedulTargetRequest";
+import MainSection from "./MainSection";
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Navigation links={links} />
         <switch>
+          <Route path="/" exact component={MainSection} />
           <Route path="/SDT" component={scheduleTargetRequest} />
           {/* <Route path="/DTR" component={doTargetRequest} /> */}
         </switch>

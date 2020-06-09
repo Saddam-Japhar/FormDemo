@@ -1,4 +1,5 @@
 import React from "react";
+import "./Test.css";
 class scheduleTargetRequest extends React.Component {
   render() {
     return (
@@ -66,7 +67,21 @@ class scheduleTargetRequest extends React.Component {
               />
             </div>
           </div>
+
+          <div class="d-flex mt-5 border justify-content-between">
+            <div class="p-2 align-self-start">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2 align-self-end">Flex item 3</div>
+          </div>
+          <div class="d-flex border mt-5 flex-column">
+            <div class="align-self-center">Aligned flex item</div>
+          </div>
         </form>
+        <div class="row px-3 mb-4">
+          <hr class="ver" />
+          <small class="or text-center">Or</small>
+          <hr class="ver" />
+        </div>
       </div>
     );
   }
